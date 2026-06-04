@@ -2,11 +2,11 @@ package esercizio2;
 
 public class Chiamata {
 
-    private int durata;
-    private String numeroChiamato;
+    public int durata;
+    public String numeroChiamato;
 
     public Chiamata(int durata, String numeroChiamato) {
-        this.durata = durata;
+        this.durata = durata; // Corretto: prima c'era 'duration'
         this.numeroChiamato = numeroChiamato;
     }
 

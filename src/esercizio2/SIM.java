@@ -2,9 +2,10 @@ package esercizio2;
 
 public class SIM {
 
-    private String numeroTelefono;
-    private double credito;
-    private Chiamata[] listaChiamate;
+
+    public String numeroTelefono;
+    public double credito;
+    public Chiamata[] listaChiamate;
 
     public SIM(String numeroTelefono) {
         this.numeroTelefono = numeroTelefono;
