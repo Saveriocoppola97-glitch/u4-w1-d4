@@ -1,13 +1,14 @@
 package entities;
 
 public class Rettangolo {
-
+//    PARAMETRI
     private double altezza;
     private double larghezza;
-
+//   Costruttore vuoto (prova)
     public Rettangolo() {
     }
 
+    //   Costruttore
     public Rettangolo(double altezza, double larghezza) {
         this.altezza = altezza;
         this.larghezza = larghezza;
